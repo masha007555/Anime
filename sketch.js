@@ -312,3 +312,8 @@ function switchC() {
     break;
   }
 }
+
+function srotat () {
+  document.documentElement.requestFullScreen();
+  screen.orientation.lock("portrait-primary");
+};
