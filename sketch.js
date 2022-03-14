@@ -69,6 +69,7 @@ function setup() {
 }
 
 function draw() {
+  srotat();
   fill("white");
   textSize(height/20);
   text(r,width/20,height/20);
